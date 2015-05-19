@@ -4,8 +4,8 @@
   "title" : "^orange;Setting up the Kitchen",
   "text" : "Well I guess the first thing we should do is set up a little kitchen on the edge of town. Do you have a wooden cooking table we could use in our little restaurant?",
   "completionText" : "Looks like a well crafted cooking table! Here are some Avian building supplies to help make the place as well.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "woodencookingtable", 1], "consume" : false }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "woodencookingtable", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

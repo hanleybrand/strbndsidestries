@@ -4,8 +4,8 @@
   "title" : "^orange;Royal Farming",
   "text" : "Thinking. Our new chef asked about our food supply, and I was sad to note that it's quite low! How about you bring ten boltbulb seeds back to me?",
   "completionText" : "Excited. Bultbulbs are delicious! Why don't you go make a farming area outside and plant them? Here are some other seeds to go in the castle's garden as well!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "boltbulbseed", 10], "consume" : false }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "boltbulbseed", "count":  10 , "consume" : false }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

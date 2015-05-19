@@ -4,10 +4,10 @@
   "title" : "^orange;Bugs in the Arctic",
   "text" : "Our next assignment ssshall be finding some bugs on arctic planets. I believe there's the polarmoth, the orphanfly,and the sssnowskater on these planets.",
   "completionText" : "Great job! ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "polarmoth", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "orphanfly", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "snowskater", 1], "consume" : false }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "polarmoth", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "orphanfly", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "snowskater", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [400, 500],
   "rewards" : [

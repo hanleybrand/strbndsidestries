@@ -3,8 +3,8 @@
   "title" : "^orange;Helping with Bandages",
   "text" : "Stupid me...I know I shouldn't have jumped down here, but I did, and I hurt my leg. Could you help a stranger out and bring me 3 bandages?",
   "completionText" : "Wow, thanks so much, stranger! I hope this helps in your adventures!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "bandage", 3], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "bandage", "count":  3 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

@@ -4,10 +4,10 @@
   "title" : "^orange;Bugs in the Ocean",
   "text" : "Our next assignment ssshall be finding some bugs on ocean planets. I believe there's the tidefly, the ssseahornet,and the wavebird on these planets.",
   "completionText" : "Great job! ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "tidefly", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "seahornet", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "wavebird", 1], "consume" : false }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "tidefly", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "seahornet", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "wavebird", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [400, 500],
   "rewards" : [

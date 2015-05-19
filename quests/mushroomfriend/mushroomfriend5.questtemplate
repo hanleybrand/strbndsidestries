@@ -4,8 +4,8 @@
   "title" : "^orange;Weird Shroom Weapons",
   "text" : "Bababa points at your weapon, some wood, then a plant again. You figure out the plants mean Floran, so maybe Bababa needs a Floran weapon rack?",
   "completionText" : "That weird smile comes back when you bring him the weapon rack...Maybe Bababa isn't as friendly as you first thought...",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "huntingweaponrack1", 1], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "huntingweaponrack1", "count":  1 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

@@ -4,8 +4,8 @@
   "title" : "^orange;An Apex's Favorite",
   "text" : "This is a pretty crazy idea, but I think we might want to plant some food at some point. The MiniKnog sends us little packages of food here and there, but a more steady source would be welcome. Could you go and bring me five banana seeds?",
   "completionText" : "Great! I can taste the delicious potassium already. Feel free to plant these wherever you choose around here, we'll figure out a way to get to it.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "bananaseed", 5], "consume" : false }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "bananaseed", "count":  5 , "consume" : false }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

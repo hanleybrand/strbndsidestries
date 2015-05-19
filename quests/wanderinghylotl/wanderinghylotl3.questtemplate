@@ -4,8 +4,8 @@
   "title" : "^orange;Hylotl Furniture",
   "text" : "Oh? The houses are boring? That's because they don't have any Hylotl decor! If you can bring me 3000 pixels, I can buy you some furniture for cheap.",
   "completionText" : "These should liven up the houses a bit more, but hopefully I can figure out a way to get you to access this stuff without my help.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "money", 3000], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "money", "count":  3000 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

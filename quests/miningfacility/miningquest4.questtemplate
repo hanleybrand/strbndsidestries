@@ -4,8 +4,8 @@
   "title" : "^orange;Using that Pickaxe",
   "text" : "So you're still keen on using pickaxes, huh? Bring me a copper pickaxe and I'll make it a little easier for you to dig.",
   "completionText" : "There we go! These diamond pickaxes should make mining out ores much easier for you, and thus better for the both of us.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "copperpickaxe", 1], "consume" : true }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "copperpickaxe", "count":  1 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

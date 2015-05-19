@@ -4,8 +4,8 @@
   "title" : "^orange;Shopping for the Base",
   "text" : "For 8000 pixels I can get another Avian to come to the base. This one needs help finding goods to sell to other people, and you get a big chunk of the profit!",
   "completionText" : "I know you're busy adventuring and what have you, so I also threw in a teleporter core to help you out. Hope you can make some good pixels off the merchant!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "money", 8000], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "money", "count":  8000 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

@@ -4,7 +4,7 @@
   "title" : "^orange;Weird Shroom Hats",
   "text" : "Bababa looks overjoyed at the prospects of you moving in. He holds up a finger, maybe indicating to wait, and starts to look for something.",
   "completionText" : "Bababa brings back a mushroom head, which weirds you out a little bit. He then points to his head, then your head, then the mushroom head. I guess I'll put it on...",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [100, 300],

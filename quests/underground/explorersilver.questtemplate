@@ -3,8 +3,8 @@
   "title" : "^orange;Helping Silver",
   "text" : "Howdy there, my digging friend. Hope your underground journey is going well. Would you mind if I followed you and collected 15 ores of silver? I can't seem to have any luck.",
   "completionText" : "Wow, thanks so much, stranger! I hope this helps in your adventures!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "silverore", 15], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "silverore", "count":  15 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

@@ -4,7 +4,7 @@
   "title" : "^orange;Village Warrior",
   "text" : "Chief and Floran agree, you are a good member of village. Would you like to become village warrior?",
   "completionText" : "A sssplendid day for our village! Please take these Floran warrior clothes, and thank you for joining our village!",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [4000, 6000],

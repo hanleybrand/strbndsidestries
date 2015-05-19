@@ -4,8 +4,8 @@
   "title" : "^orange;Merlibot and the Teleporter",
   "text" : "Excitement. I assume you have many amazing adventures to go on, so you need a way to get back. Luckily Merlibot has quite the magic to make it happen. Bring me a teleporter core, and I shall show you my magic!",
   "completionText" : "Magical. Huzzah! With the power of Merlibot and a teleport core, I can create a teleporter! Now you can visit Merlibot whenever you wish. Also, make Merlibot's house bigger. Here are some supplies. Make yourself a wizard tower.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "teleportercore", 1], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "teleportercore", "count":  1 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

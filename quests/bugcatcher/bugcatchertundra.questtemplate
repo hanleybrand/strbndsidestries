@@ -4,10 +4,10 @@
   "title" : "^orange;Bugs in the Tundra",
   "text" : "Our next assignment ssshall be finding some bugs on tundra planets. I believe there's the aurorabee, the driftbell,and the ssshardwing on these planets.",
   "completionText" : "Great job! ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "aurorabee", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "driftbell", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "shardwing", 1], "consume" : false }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "aurorabee", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "driftbell", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "shardwing", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [400, 500],
   "rewards" : [

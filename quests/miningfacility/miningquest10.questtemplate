@@ -4,8 +4,8 @@
   "title" : "^orange;The Amazing Diamond",
   "text" : "Diamonds...don't we all love diamonds? Such pixels! Bring me thirty diamonds, and we can make a fortune!",
   "completionText" : "My sixty percent cut on these diamond nodes should end up being...well, a lot of pixels. A TON of pixels.",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "diamond", 30], "consume" : true }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "diamond", "count":  30 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

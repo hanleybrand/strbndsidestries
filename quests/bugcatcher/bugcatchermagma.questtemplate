@@ -4,10 +4,10 @@
   "title" : "^orange;Bugs in the Magma",
   "text" : "Our next assignment ssshall be finding some bugs on magma planets. I believe there's the flameroach, the lavahopper, and the fireygiant on these planets.",
   "completionText" : "Great job! ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "flameroach", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "lavahopper", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "fireygiant", 1], "consume" : false }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "flameroach", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "lavahopper", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "fireygiant", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [400, 500],
   "rewards" : [

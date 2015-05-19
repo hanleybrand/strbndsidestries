@@ -4,8 +4,8 @@
   "title" : "^orange;Pesky Poultry",
   "text" : "Annoyed. How do you feel about flying beasts, warrior? As annoyed as I am? Could you possibly go off and kill some and bring back five raw poultry?",
   "completionText" : "Relieved. One day I will figure out a way to rid our planet of flying beasts....one day.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "rawpoultry", 5], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "rawpoultry", "count":  5 , "consume" : true }
   ],
   "moneyRange" : [500, 700],
   "rewards" : [

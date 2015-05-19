@@ -4,8 +4,8 @@
   "title" : "^orange;Merchant Glory 3",
   "text" : "This order came in from an Apex. They want one of those aquariums with fish in them found in Apex villages. If you can find it I'll pay double its value!",
   "completionText" : "Dang, you're good. The Apex will be incredibly happy with his purchase thanks to you.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "apexaquarium1", 1], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "apexaquarium1", "count":  1 , "consume" : true }
   ],
   "moneyRange" : [700, 800],
   "rewards" : [

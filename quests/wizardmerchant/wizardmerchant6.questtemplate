@@ -4,9 +4,9 @@
   "title" : "^orange;Merlibot and the Magical Clothes",
   "text" : "Happy. Wizardry, young one, is all in the appearance. Bring me fifty pieces of cloth, and three of those magical core ores from the center of planets.",
   "completionText" : "Excitement. Now you can be a true wizard, young one! These clothes...so magical, so comfy, being a wizard truly is the best. ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "fabric", 50], "consume" : true }, 
-	{ "kind" : "gather", "item" : [ "corefragmentore", 3], "consume" : true }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "fabric", "count":  50 , "consume" : true },
+	{ "type" : "gather", "item" :  "corefragmentore", "count":  3 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

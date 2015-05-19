@@ -4,8 +4,8 @@
   "title" : "^orange;Making Monkey Space",
   "text" : "Since you seem to actually DO things here as opposed to the other Apex, maybe you should think of making your own little house here? If you bring me 3000 pixels I can get a good deal on some Apex building materials.",
   "completionText" : "Here's your materials, feel free to build on top of a building, off to the side, maybe even underground, who knows. It's up to you.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "money", 3000], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "money", "count":  3000 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

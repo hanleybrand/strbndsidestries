@@ -4,8 +4,8 @@
   "title" : "^orange;A fishy friend!",
   "text" : "You know what I could use down here? A friend. Oh! Don't get me wrong, you're great! But you've got stuff to do, and other planets to explore. Could you bring me a Hylotl spawner from your ship?",
   "completionText" : "Thank you so much, friend! Place the new Hylotl any where, I sure hope they're friendly and willing to live in an igloo!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "spawnerhylotl", 1], "consume" : false }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "spawnerhylotl", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

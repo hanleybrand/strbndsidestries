@@ -4,8 +4,8 @@
   "title" : "^orange;Starting the Colony Off",
   "text" : "Okay, so I've contacted a friend of mine. As long as you can bring me 500 wood planks, he can craft them into Hylotl materials instead of the boring wood stuff.",
   "completionText" : "Excellent! Hopefully with these materials you'll have enough to build us some basic houses to start us off. Feel free to make new islands with sand, I think that's possible, at least.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "darkwoodmaterial", 500], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "darkwoodmaterial", "count":  500 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

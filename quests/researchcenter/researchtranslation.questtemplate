@@ -4,7 +4,7 @@
   "title" : "^orange;Slab Words",
   "text" : "Hey there! The name is Dr. Lux, I'm the research center's authority on the ancient's writing system. I heard you were successful in your journey? Let's see what you have...",
   "completionText" : "Okay...after running it through the decoder I came up with...IT WILL RETURN. Hm. Well that's ominous. Maybe we should bring this info back to the main researcher.",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [100, 300],

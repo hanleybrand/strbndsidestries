@@ -4,8 +4,8 @@
   "title" : "^orange;Royal Materials",
   "text" : "Worried. As I was saying, expanding upon the castle. I regret to inform you that this castle doesn't have materials simply lying around...could I ask for a small amount of pixels? Maybe 3000?",
   "completionText" : "Relieved. Here, your majesty, your royal materials to expand the castle, as asked for. I hope I served you well!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "money", 3000], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "money", "count":  3000 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

@@ -4,8 +4,8 @@
   "title" : "^orange;Setting up the Smithing Camp",
   "text" : "Excitement. It's always good to have friends. If you bring me a fair some of pixels...say, 3000 pixels? I can get a good deal on building supplies.",
   "completionText" : "Excitement. Make yourself a house, it would be most welcome! Or feel free to expand on my smithing station, whichever you'd like.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "money", 3000], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "money", "count":  3000 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

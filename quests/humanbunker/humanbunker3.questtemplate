@@ -4,8 +4,8 @@
   "title" : "^orange;Bunker Teleporter",
   "text" : "Our first order of business is going to be setting up a teleportation system. Bring me a teleporter core and I'll craft you a teleporter.",
   "completionText" : "Excellent job, quick access to the outpost is always a great thing to have, and it'll be beneficial allowing you easy access to the base since you're obviously a strong asset.",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "teleportercore", 1], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "teleportercore", "count":  1 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [

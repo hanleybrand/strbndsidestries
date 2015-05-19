@@ -4,7 +4,7 @@
   "title" : "^orange;Revisiting Erichius",
   "text" : "I've heard that you've been to the Erichius Mining Facility before, is this true? I've heard rumor that there is an ancient slab somewhere in the mining facility. Considering I'm stuck on these hunks of rocks, could you go back to the facility and search for this ancient slab?",
   "completionText" : "You're excited that you found the ancient slab, but you can't understand a single word of it. You take down what you believe to be letters, and prepare to head back to the research center.",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [100, 300],

@@ -4,10 +4,10 @@
   "title" : "^orange;Bugs in the Snowy Plains",
   "text" : "Our next assignment ssshall be finding some bugs on sssnowy planets. I believe there's the frostfly, the icetip,and the frostfleck on these planets.",
   "completionText" : "Great job! ",
-  "conditions" : [
-    { "kind" : "gather", "item" : [ "frostfly", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "icetip", 1], "consume" : false }, 
-	{ "kind" : "gather", "item" : [ "frostfleck", 1], "consume" : false }
+  "completionConditions"  : [
+    { "type" : "gather", "item" :  "frostfly", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "icetip", "count":  1 , "consume" : false },
+	{ "type" : "gather", "item" :  "frostfleck", "count":  1 , "consume" : false }
   ],
   "moneyRange" : [400, 500],
   "rewards" : [

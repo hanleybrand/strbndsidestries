@@ -4,7 +4,7 @@
   "title" : "^orange;Village Living",
   "text" : "Wondering. You've helped us out so much, would you have any interest in setting up a home here in our village? Due to your kindness the village has donated supplies for you.",
   "completionText" : "Happy. Glad you're taking it, the village is very happy you're making a home here.",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [500, 700],

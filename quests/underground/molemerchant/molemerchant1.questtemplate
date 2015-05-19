@@ -3,7 +3,7 @@
   "title" : "^orange;The Mining Mole",
   "text" : "Howdy explorer! I'm Moles, the mining mole, here to help!",
   "completionText" : "I've got some upgraded pick axes I can sell you to help you adventure around down here.",
-  "conditions" : [
+  "completionConditions"  : [
 	
   ],
   "moneyRange" : [100, 300],

@@ -4,7 +4,7 @@
   "title" : "^orange;Shops for the Base",
   "text" : "For 10000 pixels I can actually get a Terramart and Infinity Express right for our base! You'll still have to buy the stuff, annoyingly, but it'll be cool and look great!",
   "completionText" : "Wow, the base is going to look great with all this stuff in it! Thanks for making this base the place it really could be.",
-  "conditions" : [
+  "completionConditions"  : [
 	{ "kind" : "gather", "item" : [ "money", 10000], "consume" : true }
   ],
   "moneyRange" : [100, 300],

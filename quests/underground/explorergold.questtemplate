@@ -3,8 +3,8 @@
   "title" : "^orange;Helping Gold",
   "text" : "Enjoying mining today? Sadly I'm not...I can't find any gold! Would you mind if I followed you until you found 15 pieces of gold ore?",
   "completionText" : "Wow, thanks so much, stranger! I hope this helps in your adventures!",
-  "conditions" : [
-	{ "kind" : "gather", "item" : [ "goldore", 15], "consume" : true }
+  "completionConditions"  : [
+	{ "type" : "gather", "item" :  "goldore", "count":  15 , "consume" : true }
   ],
   "moneyRange" : [100, 300],
   "rewards" : [
