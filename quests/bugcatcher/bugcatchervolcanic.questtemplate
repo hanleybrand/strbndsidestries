@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatchervolcanic.gearup",
+  "prerequisites" : [ "bugcatcherscorched.gearup" ],
+  "title" : "^orange;Bugs in the Volcanoes",
+  "text" : "Our next assignment ssshall be finding some bugs on volcanic planets. I believe there's the phoenixfly, the heathugger,and the glowbug on these planets.",
+  "completionText" : "You did it! You've caught all known bug ssspecies through out the universe! This is absolutely incredible. Here's my life sssavings and my golden bug net. Thank you again for helping to collect all these bugs!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "phoenixfly", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "heathugger", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "glowbug", 1], "consume" : false }
+  ],
+  "moneyRange" : [8000, 9000],
+  "rewards" : [
+     [ [  "goldenbugnet", 1 ]  ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

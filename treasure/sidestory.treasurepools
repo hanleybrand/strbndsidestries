@@ -1,0 +1,80 @@
+{
+   "explorecapsule" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : ["ancientcore", 2]},
+        {"weight" : 0.3, "item" : ["ancientcore", 1]},
+		{"weight" : 0.2, "item" : ["money", 1000]},
+		{"weight" : 0.1, "item" : ["money", 3000]},
+        {"weight" : 0.05, "item" : ["teleportercore"] },
+        {"weight" : 0.1, "item" : ["diamond", 3] },
+        {"weight" : 0.025, "item" : ["blanktechcard"] },
+        {"weight" : 0.05, "item" : ["humanstoragelocker"] }
+      ],
+      "poolRounds" : [
+        [0.1, 2],
+        [0.9, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "ancienttreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["ancientcore", 1]},
+		{"weight" : 0.3, "item" : ["money", 3000]},
+        {"weight" : 0.05, "item" : ["ancientcore", 2]},
+        {"weight" : 0.1, "item" : [ "nanowrap", 6]},
+        {"weight" : 0.1, "pool" : "uncommonMelee"},
+        {"weight" : 0.02, "pool" : "uniqueMelee"},
+        {"weight" : 0.1, "pool" : "rareGun"},
+        {"weight" : 0.02, "pool" : "legendaryGun"},
+        {"weight" : 0.1, "item" : ["teleportercore"] },
+        {"weight" : 0.1, "item" : ["humanstoragelocker"] }
+      ],
+      "poolRounds" : [
+        [0.8, 2],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "ancienttentacletreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.01, "item" : ["ancientarmor3pants", 1]},
+        {"weight" : 0.01, "item" : ["ancientarmor3chest", 1]},
+        {"weight" : 0.01, "item" : [ "ancientarmor3head", 1]},
+        {"weight" : 0.01, "item" : [ "ancientbroadsword2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientshortsword2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientshotgun2", 1]},
+        {"weight" : 0.01, "item" : [ "ancientrocket2", 1]},
+        {"weight" : 0.1, "pool" : "uncommonMelee"},
+        {"weight" : 0.01, "pool" : "uniqueMelee"},
+        {"weight" : 0.01, "pool" : "legendaryGun"},
+        {"weight" : 0.05, "item" : ["diamond"] },
+        {"weight" : 0.3, "item" : ["ancientcore"] }
+      ],
+      "poolRounds" : [
+        [0.2, 2],
+        [0.8, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+   "sidestorybounties" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["money", 5000]}
+      ],
+      "poolRounds" : [
+        [0.0, 0],
+        [1.0, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

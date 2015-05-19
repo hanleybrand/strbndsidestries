@@ -1,0 +1,18 @@
+  {
+  "id" : "miningquest9.gearup",
+  "prerequisites" : [ "miningquest8.gearup" ],
+  "title" : "^orange;Drilling Around",
+  "text" : "Have you found any drills yet? They'll really help that mining speed. Bring me a copper mining drill and I'll do the same as the pickaxes.",
+  "completionText" : "You should be able to mine as fast as a Novakid's mind now!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "copperdrill", 1], "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "diamonddrill", 5 ]  ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

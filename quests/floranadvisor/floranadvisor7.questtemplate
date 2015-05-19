@@ -1,0 +1,18 @@
+  {
+  "id" : "floranadvisor7.gearup",
+  "prerequisites" : [ "floranadvisor6.gearup" ],
+  "title" : "^orange;Ssslithering Sssnakes",
+  "text" : "Chief sssay you need sssome more ssstuff in house. Floran is to make you ssspecial pelt for your house, but needs five leather pieces.",
+  "completionText" : "Floran is excited for your house! Floran love pelts, and now you can too!",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "leather", 5], "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "floranpelt5", 1 ], [  "floranpelt4", 1 ], [  "floranpelt3", 1 ], [  "floranpelt2", 1 ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

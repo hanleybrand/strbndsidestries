@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatchergarden.gearup",
+  "prerequisites" : [ "bugcatcherbugnet.gearup" ],
+  "title" : "^orange;Life in the Garden",
+  "text" : "Our first assignment ssshall be finding some bugs on lush planets. I believe there's the butterbee, the fawnfly,and the mudstag on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "butterbee", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "fawnfly", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "mudstag", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

@@ -1,0 +1,18 @@
+  {
+  "id" : "airship3.gearup",
+  "prerequisites" : [ "airship2.gearup" ],
+  "title" : "^orange;Back to the Ship",
+  "text" : "Next I think our crew should have a way to get to the outpost. You could also benefit by bookmarking this site, so how about you find me a teleporter core?",
+  "completionText" : "Excellent. Feel free to put the teleporter either up here on the ship, or down in our little settlement. The rest of the crew will be sure to thank you for helping out.",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "teleportercore", 1], "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "woodenteleporter", 1 ] ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

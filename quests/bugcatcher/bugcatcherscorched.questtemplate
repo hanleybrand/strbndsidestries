@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatcherscorched.gearup",
+  "prerequisites" : [ "bugcatchermagma.gearup" ],
+  "title" : "^orange;Bugs in the Scorched Lands",
+  "text" : "Our next assignment ssshall be finding some bugs on ssscorched planets. I believe there's the ssshadowmoth, the cinderfly, and the ashsprite on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "shadowmoth", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "cinderfly", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "ashsprite", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+     
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

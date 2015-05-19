@@ -1,0 +1,18 @@
+  {
+  "id" : "avianpatrol7.gearup",
+  "prerequisites" : [ "avianpatrol6.gearup" ],
+  "title" : "^orange;Avian Cooking 4",
+  "text" : "I thought it would be nice to make the guards some coffee since I've decided to become a chef instead. Could you bring me three cups worth of coffee?",
+  "completionText" : "Ah...coffee is so delicious. I'm sure the guards will thank you.",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "liquidcoffee", 3], "consume" : true }
+  ],
+  "moneyRange" : [400, 600],
+  "rewards" : [
+     
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

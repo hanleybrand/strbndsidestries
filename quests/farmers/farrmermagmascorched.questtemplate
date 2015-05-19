@@ -1,0 +1,21 @@
+  {
+  "id" : "farmermagmascorched.gearup",
+  "prerequisites" : [ "farmertundraarctic.gearup" ],
+  "title" : "^orange;Farmin the Magma, Volcanic and Scorched",
+  "text" : "Kluex says that magma, volcanic and scorched planets hold the seeds we seek. There you will find wartweed, diodia, neonmelon and chili seeds. Bring those to me for the glory of Kluex!",
+  "completionText" : "By Kluex, you've done it! You've collected all possible crops in the universe, and they all grow! Right here! Thank you so much for proving that Kluex does shine his light upon us. Please feel free to continue coming to my, or rather, our farm!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wartweedseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "chiliseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "diodiaseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "neonmelonseed", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      [ [  "volcanicsalsa", 10 ], [ "goldenhoe", 1 ]  ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

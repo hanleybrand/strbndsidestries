@@ -1,0 +1,19 @@
+  {
+  "id" : "wizardmerchant6.gearup",
+  "prerequisites" : [ "wizardmerchant5.gearup" ],
+  "title" : "^orange;Merlibot and the Magical Clothes",
+  "text" : "Happy. Wizardry, young one, is all in the appearance. Bring me fifty pieces of cloth, and three of those magical core ores from the center of planets.",
+  "completionText" : "Excitement. Now you can be a true wizard, young one! These clothes...so magical, so comfy, being a wizard truly is the best. ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "fabric", 50], "consume" : true }, 
+	{ "kind" : "gather", "item" : [ "corefragmentore", 3], "consume" : true }
+  ],
+  "moneyRange" : [100, 300],
+  "rewards" : [
+     [ [  "wizardhead", 1 ], [  "wizardchest", 1 ], [  "wizardlegs", 1 ]  ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

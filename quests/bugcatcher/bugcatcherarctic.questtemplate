@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatcherarctic.gearup",
+  "prerequisites" : [ "bugcatchertoxic.gearup" ],
+  "title" : "^orange;Bugs in the Arctic",
+  "text" : "Our next assignment ssshall be finding some bugs on arctic planets. I believe there's the polarmoth, the orphanfly,and the sssnowskater on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "polarmoth", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "orphanfly", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "snowskater", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+     
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

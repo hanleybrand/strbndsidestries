@@ -1,0 +1,21 @@
+  {
+  "id" : "farmerforest.gearup",
+  "prerequisites" : [ "farmergarden.gearup" ],
+  "title" : "^orange;Farmin the Forest",
+  "text" : "Kluex says that forest planets hold the seeds we seek. There you will find carrot, tomato, sugarcane and coffee seeds. Bring those to me for the glory of Kluex!",
+  "completionText" : "Kluex and I thank you! Now it's time to go and plant them in the farm. May Kluex bless you.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "carrotseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "tomatoseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "coffeeseed", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "sugarcaneseed", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      [ [  "liquidcoffee", 100 ]  ]
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

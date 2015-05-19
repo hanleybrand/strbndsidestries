@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatcherdesert.gearup",
+  "prerequisites" : [ "bugcatcherforest.gearup" ],
+  "title" : "^orange;Bugs in the Desert",
+  "text" : "Our next assignment ssshall be finding some bugs on desert planets. I believe there's the sssunskipper, the goldbuck,and the sssandclown on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "sunskipper", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "goldbuck", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "sandclown", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+      
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

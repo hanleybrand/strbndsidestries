@@ -1,0 +1,35 @@
+[
+{
+    "op": "add",
+    "path": "/ancientgateway2",
+    "value": 
+      {
+	"primaryDungeon" : "ancientgateway2",
+    "threatLevel" : 1,
+    "gravity" : 40,
+    "worldSize" : [1000, 1000],
+    "dungeonBaseHeight" : 500,
+    "ambientLightLevel" : [128, 128, 128],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/m54.ogg"
+      }
+},
+
+{
+    "op": "add",
+    "path": "/researchcenter",
+    "value": 
+      {
+	"primaryDungeon" : "researchcenter",
+    "threatLevel" : 1,
+    "gravity" : 40,
+    "worldSize" : [2000, 1000],
+    "dungeonBaseHeight" : 500,
+    "ambientLightLevel" : [128, 128, 128],
+	"biome" : "asteroidfield",
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/crystal-exploration1.ogg"
+      }
+}
+
+]

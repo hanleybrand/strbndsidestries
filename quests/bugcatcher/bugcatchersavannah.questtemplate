@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatchersavannah.gearup",
+  "prerequisites" : [ "bugcatcherocean.gearup" ],
+  "title" : "^orange;Bugs in the Savannah",
+  "text" : "Our next assignment ssshall be finding some bugs on arid planets. I believe there's the dustmoth, the dewhopper,and the muddancer on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "dustmoth", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "dewhopper", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "muddancer", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+     
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 

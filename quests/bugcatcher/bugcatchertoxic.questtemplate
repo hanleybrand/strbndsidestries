@@ -1,0 +1,20 @@
+  {
+  "id" : "bugcatchertoxic.gearup",
+  "prerequisites" : [ "bugcatcherjungle.gearup" ],
+  "title" : "^orange;Bugs in the Toxic Lands",
+  "text" : "Our next assignment ssshall be finding some bugs on toxic planets. I believe there's the ssstinkjack, the ssscuttleploom,and the gasgiant on these planets.",
+  "completionText" : "Great job! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "stinkjack", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "scuttleploom", 1], "consume" : false }, 
+	{ "kind" : "gather", "item" : [ "gasgiant", 1], "consume" : false }
+  ],
+  "moneyRange" : [400, 500],
+  "rewards" : [
+     
+   ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "requireTurnIn" : true
+}
+ 
